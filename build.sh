@@ -11,8 +11,8 @@ ZYCLANG_DLINK="https://github.com/ZyCromerZ/Clang/releases/download/17.0.0-20230
 ZYCLANG_DIR="$WORKDIR/ZyClang/bin"
 
 # Kernel Source
-KERNEL_GIT="https://github.com/AndroidBlobs/kernel_xiaomi_mona.git"
-KERNEL_BRANCHE="release-LA.UM.9.14.r1-16700-LAHAINA.0"
+KERNEL_GIT="https://github.com/Diva-Room/Miku_kernel_xiaomi_mona/"
+KERNEL_BRANCHE="TDA"
 KERNEL_DIR="$WORKDIR/Kernel"
 
 # Anykernel3
@@ -32,8 +32,8 @@ IMAGE="$KERNEL_DIR/out/arch/arm64/boot/Image.gz-dtb"
 DTB="$KERNEL_DIR/out/arch/arm64/boot/dts/mediatek/mt6768.dtb"
 DTBO="$KERNEL_DIR/out/arch/arm64/boot/dtbo.img"
 
-export KBUILD_BUILD_USER=MoChenYa
-export KBUILD_BUILD_HOST=GitHubCI
+export KBUILD_BUILD_USER=MoChen
+export KBUILD_BUILD_HOST=GitHub
 
 msg() {
 	echo
