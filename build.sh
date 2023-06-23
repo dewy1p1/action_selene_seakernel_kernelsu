@@ -11,22 +11,22 @@ ZYCLANG_DLINK="https://github.com/ZyCromerZ/Clang/releases/download/17.0.0-20230
 ZYCLANG_DIR="$WORKDIR/ZyClang/bin"
 
 # Kernel Source
-KERNEL_GIT="https://github.com/mochenya/Sea_Kernel-Selene.git"
-KERNEL_BRANCHE="twelve-test"
-KERNEL_DIR="$WORKDIR/SeaKernel"
+KERNEL_GIT="https://github.com/AndroidBlobs/kernel_xiaomi_mona.git"
+KERNEL_BRANCHE="release-LA.UM.9.14.r1-16700-LAHAINA.0"
+KERNEL_DIR="$WORKDIR/Kernel"
 
 # Anykernel3
-ANYKERNEL3_GIT="https://github.com/Kentanglu/AnyKernel3.git"
-ANYKERNEL3_BRANCHE="selene-old"
+ANYKERNEL3_GIT="https://github.com/dewy1p1/AnyKernel3/.git"
+ANYKERNEL3_BRANCHE="selene"
 
 # Magiskboot
 MAGISKBOOT_DLINK="https://github.com/xiaoxindada/magiskboot_ndk_on_linux/releases/download/Magiskboot-26102-41/magiskboot.7z"
 MAGISKBOOT="$WORKDIR/magiskboot/magiskboot"
-ORIGIN_BOOTIMG_DLINK="https://github.com/mochenya/action_selene_seakernel_kernelsu/releases/download/originboot/boot.img"
+ORIGIN_BOOTIMG_DLINK="https://hwriter.top/d/189Pan/boot.img"
 
 # Build
-DEVICES_CODE="selene"
-DEVICE_DEFCONFIG="selene_defconfig"
+DEVICES_CODE="gki"
+DEVICE_DEFCONFIG="gki_defconfig"
 DEVICE_DEFCONFIG_FILE="$KERNEL_DIR/arch/arm64/configs/$DEVICE_DEFCONFIG"
 IMAGE="$KERNEL_DIR/out/arch/arm64/boot/Image.gz-dtb"
 DTB="$KERNEL_DIR/out/arch/arm64/boot/dts/mediatek/mt6768.dtb"
